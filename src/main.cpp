@@ -86,9 +86,7 @@ void reconnect() {
 
 void setup() {
   Serial.begin(115200);
-
   setup_wifi();
-
   // Charger le certificat
   espClient.setCACert(ca_cert);
   client.setServer(mqtt_server, mqtt_port);
