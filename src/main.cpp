@@ -10,7 +10,7 @@
 #define MQTT_MAX_PACKET_SIZE 512
 #define MQTT_KEEP_ALIVE 60  // 60 secondes
 #define MQTT_RECONNECT_TIMEOUT 5  // 5 secondes
-#define MQTT_PUBLISH_INTERVAL 5000  // 1 seconde  
+#define MQTT_PUBLISH_INTERVAL 10000  // 1 seconde  
 
 
 // MQTT client
